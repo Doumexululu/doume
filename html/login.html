@@ -5,10 +5,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/login.css">
 	<title>即安分担</title>
 </head>
 <body>
-	jn
+	<!--登录页面头部-->
+	<header class="head">
+		<img class="backimg" src="../images/public/goback.png" alt="返回">
+		<span class="headtitle">注册／登录</span>
+	</header>
+	<!--登陆注册-->
+	<div class="login-wrap">
+		<img class="login_logo" src="../images/login/login_logo.png" alt="即安分单">
+		<form class="">
+			<div class="tel-wrap tel-wrap-a">
+				<img class="telimg" src="../images/login/tel.png" alt="">
+				<input class="tel-num" type="text" id="telnumber" placeholder="请输入您的手机号">
+				<img class="clear-num" src="../images/login/clear.png" alt="清空">
+			</div>
+			<div class="verify">
+				<div class="tel-wrap tel-wrap-b">
+					<img class="telimg" src="../images/login/verify.png" alt="">
+					<input class="tel-num" type="text" id="telnumber" placeholder="请输入短信验证码">
+				</div>
+				<div class="sendnum">
+					获取验证码
+				</div>
+			</div>
+			<button type="button" class="btn" id="submit">提交</button>
+		</form>
+	</div>
+	<footer class="foot">
+		<span>注册协议（注册即表示同意注册协议）</span>
+	</footer>
 </body>
-<script src="../js/jquery-1.10.2.min"></script>
+<script src="../js/jquery-1.10.2.min.js"></script>
 </html>
