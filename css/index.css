@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*底部导航*/
+.nav {
+	background: #1e1e1e;
+	width: 100%;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+}
+.nav a {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+.nav a img {
+	width: 33px;
+}
+/*顶部机构编码*/
+.box-gray {
+	background: #f0f0f0;
+	border-radius: 5px;
+	background: url("../images/index/icon-1.png") no-repeat center left 5px rgba(240,240,240,1);
+	background-size: 33px;
+	width: 70%;
+	margin: 40px auto;
+	overflow: hidden;
+	padding-left: 45px;
+	position: relative;
+	margin-top: 150px;
+}
+.close {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 40px;
+	background: url("../images/index/close.png") no-repeat center;
+	background-size: 16px;
+	width: 30px;
+}
+.box-gray input {
+	width: 80%;
+	height: 40px;
+	background: #f0f0f0;
+}
+/*个人分期 企业分期*/
+.accout {
+	display: none;
+}
+.accout li {
+	width: 50%;
+	float:left;
+	text-align: center;
+}
+.accout li img {
+	width: 50px;
+}
