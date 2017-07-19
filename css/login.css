@@ -31,14 +31,11 @@ html {
     margin-bottom: 4rem;
 }
 .tel-wrap {
-
-
     background-color: #f0f0f0;
-    /*height: 4rem;*/
     padding: 1.1rem;
     border-radius: 0.5rem;
     text-align: left;
-
+    width: 75%;
 }
 .tel-wrap .telimg {
     width: 3rem;
