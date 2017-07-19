@@ -10,6 +10,7 @@ html {
 .staging-item {
     flex: 1;
     text-align: center;
+    position: relative;
 }
 .staging-list {
     width: 90%;
@@ -32,20 +33,23 @@ html {
 .staging-list .staging-detail .staging-detail-cont {
     background-color: #f0f0f0;
     padding: 2rem 1rem;
-    height: 6rem;
     font-weight: 500;
+    display: flex;
 }
 .staging-list .staging-detail .staging-detail-cont .cont-left {
-    float: left;
     width: 63%;
+    flex: 3;
 }
 .staging-list .staging-detail .staging-detail-cont .cont-right {
-    float: right;
     width: 37%;
     text-align: right;
+    flex: 2;
 }
 .cont-left p {
     margin-bottom: 1rem;
+}
+.cont-left p:last-child {
+    margin-bottom: 0rem;
 }
 .cont-right p {
     margin-bottom: 1rem;
@@ -69,10 +73,33 @@ html {
 }
 .repayment {
     display: block;
-    height: 1.6rem;
-    width: 5rem;
     background-color: #00877e;
     border-radius: 0.3rem;
     text-align: center;
-    line-height: 1.6rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+
+}
+.unread {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ff4545;
+    border-radius: 50%;
+    top: 25%;
+    right: 20%;
+}
+.bottom-line {
+    position: absolute;
+    width: 45%;
+    height: 0.2rem;
+    background-color: #00877e;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0.3rem;
+    border-radius: 1rem;
+}
+.focu-color {
+    color: #00877e;
 }

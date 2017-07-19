@@ -10,8 +10,17 @@
 </head>
 <body>
     <div class="staging-title">
-        <span class="staging-item">全部</span>
-        <span class="staging-item">审核中</span>
+        <!--状态选中时 focu-color 颜色类添加-->
+        <span class="staging-item focu-color">
+            全部
+            <!--状态选中时的底部绿条-->
+            <div class="bottom-line"></div>
+        </span>
+        <span class="staging-item">
+            审核中
+            <!--有未读消息时右上角出现的红点-->
+            <div class="unread"></div>
+        </span>
         <span class="staging-item">未通过</span>
         <span class="staging-item">待还款</span>
         <span class="staging-item">已完成</span>
