@@ -1,0 +1,221 @@
+@charset "UTF-8";
+.content {
+	padding: 20px;
+}
+.box-gray {
+	border-radius: 5px;
+	width: 100%;
+	background: #f0f0f0;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.box-gray img {
+	width: 100%;
+}
+/*表单*/
+.box-gray-input {
+	border-radius: 5px;
+	width: 100%;
+	background: #f0f0f0;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.box-gray-input li {
+	padding-left:10px;
+	position: relative;
+	height: 40px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #a0a0a0;
+}
+.box-gray-input li span {
+	line-height: 40px;
+}
+.box-gray-input input {
+	width: 65%;
+	height: 40px;
+	background: #f0f0f0;
+	text-align: right;
+    float: right;
+    color: #a0a0a0;
+    padding-right: 15px;
+}
+.box-gray-input select {
+	height: 40px;
+	background: #f0f0f0;
+	text-align: right;
+    float: right;
+    color: #a0a0a0;
+    padding-right: 15px;
+}
+.box-gray-input input.right-span {
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.box-gray-input li.last-li {
+	border: none;
+}
+.icon-right {
+	display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+	background: url("../images/staging/right.png") no-repeat center;
+	background-size: 10px;
+	width: 30px;
+	z-index: 10;
+}
+.close {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 40px;
+	background: url("../images/public/close.png") no-repeat center;
+	background-size: 16px;
+	width: 30px;
+	z-index: 10;
+}
+
+
+/*结果*/
+.resule {
+	padding: 10px 0;
+}
+.resule li span.resule-span {
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+}
+.green {
+	color: #00a99d;
+}
+
+/*按钮*/
+.null {
+	background: #3c3c3c;
+	color: #fff;
+	text-align: center;
+	width: 30%;
+	margin-right: 10px;
+	float: left;
+	height: 40px;
+	border-radius: 5px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+.next {
+	width: calc(70% - 10px);
+	background: #a0a0a0;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 30px;
+	height: 40px;
+	border-radius: 5px;
+}
+.next.next-js {
+	background: #00a99d;
+}
+/*定位*/
+.fix-box {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	z-index: 11;
+	display: none;
+}
+.tishi {
+	width: 70%;
+	background: #fff;
+	border-radius: 5px;
+	margin-left: 15%;
+	margin-top: 100px;
+	z-index: 12;
+}
+.tishi .title {
+	text-align: center;
+	border-bottom: 1px solid #dcdcdc;
+	padding: 15px 0;
+}
+.tishi-con {
+	padding: 15px;
+}
+.function {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+.function .null2 {
+	background: #3c3c3c;
+	color: #fff;
+	text-align: center;
+	width: 30%;
+	margin-right: 10px;
+	float: left;
+	height: 40px;
+	border-radius: 5px;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+.function .next2 {
+	margin-bottom: 10px;
+	width: calc(70% - 10px);
+	background: #00a99d;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.greent-btn {
+	background: #00a99d;
+	color: #fff;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.xieyi a {
+	color: #00a99d;
+}
+.box-gray-input li span.huoqu {
+	position: absolute;
+	right: 15px;
+	background: #00a99d;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 7px;
+	padding: 0 5px;
+	color: #fff;
+	border-radius: 5px;
+	z-index: 9;
+	top: 0;
+}
+.box-gray-input li span.daoshu {
+	position: absolute;
+	right: 15px;
+	background: #a0a0a0;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 7px;
+	padding: 0 5px;
+	color: #fff;
+	border-radius: 5px;
+	z-index: 9;
+	width: 60px;
+	text-align: center;
+	display: none;
+}
+.box-gray-input input.yanzheng {
+    padding-right: 90px;
+    width: 50%;
+}
