@@ -3,6 +3,9 @@
     margin: 0 auto;
     padding: 20px 0;
 }
+.border-rudius {
+    border-radius: 5px;
+}
 .bg-grey {
     background-color: #f0f0f0;
 }

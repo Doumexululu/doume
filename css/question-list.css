@@ -1,0 +1,15 @@
+.width-main {
+    width: 90%;
+    margin: 0 auto;
+}
+.padding-main {
+    padding: 20px 0;
+}
+.margin-bottom20 .border-ru:nth-child(1){
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.margin-bottom20 .border-ru:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
