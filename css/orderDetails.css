@@ -1,0 +1,146 @@
+.order-detail-tit {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    position: relative;
+}
+.greenback {
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    left: 5%;
+}
+.order-detail-list {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.staging-detail {
+    margin-top: 0px;
+}
+.staging-detail-cont {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.tit-line {
+    width: 100%;
+    padding: 6px 0;
+}
+.borrower-info {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.borrower-info-item {
+    padding: 15px 10px;
+}
+.info-center {
+    border-top: 0.5px solid #c8c8c8;
+    /*border-bottom: 0.5px solid #c8c8c8;*/
+}
+.right-info {
+    float: right;
+}
+.info-color {
+    color: #c8c8c8;
+}
+.dis-flex {
+    display: flex;
+}
+.bank-info {
+    flex: 1;
+}
+.back-lineheight {
+    margin-top: 2%;
+}
+.back-all {
+    text-align: center;
+    padding: 20px 0;
+    color: #00a99d;
+}
+.repayment-liji {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color: #00a99d;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.makesure-repay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.makesure-repay-cont {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+}
+.repay-cont-tit {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.repay-cont-item {
+    flex: 1;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.color-green {
+    color: #00a99d;
+}
+.money-padding {
+    padding: 20px 0;
+}
+.span-width {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+.radio-btn {
+    width: 90%;
+    margin: 0 auto;
+}
+.radios-warrap {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #00a99d;
+    position: relative;
+}
+.radios {
+    display: flex;
+}
+.radio-center {
+    width: 8px;
+    height: 8px;
+    background-color: #00a99d;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.idcard {
+    display: flex;
+}
+.idcard span {
+    flex: 1;
+}

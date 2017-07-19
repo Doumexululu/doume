@@ -16,11 +16,11 @@
     width: 90%;
     margin: 0 auto;
 }
-.staging-list .staging-detail {
+.staging-detail {
     margin-top: 20px;
     width: 100%;
 }
-.staging-list .staging-detail .staging-detail-tit {
+.staging-detail .staging-detail-tit {
     background-color: #00a99d;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -30,17 +30,17 @@
 .staging-time {
     float: right;
 }
-.staging-list .staging-detail .staging-detail-cont {
+.staging-detail .staging-detail-cont {
     background-color: #f0f0f0;
     padding: 20px 10px;
     font-weight: 500;
     display: flex;
 }
-.staging-list .staging-detail .staging-detail-cont .cont-left {
+.staging-detail .staging-detail-cont .cont-left {
     width: 63%;
     flex: 3;
 }
-.staging-list .staging-detail .staging-detail-cont .cont-right {
+.staging-detail .staging-detail-cont .cont-right {
     width: 37%;
     text-align: right;
     flex: 2;
@@ -54,11 +54,11 @@
 .cont-right p {
     margin-bottom: 10px;
 }
-.staging-list .staging-detail .staging-detail-cont .cont-right .statusimg {
+.staging-detail .staging-detail-cont .cont-right .statusimg {
     width: 50px;
     height: 40px;
 }
-.staging-list .staging-detail .staging-detail-foo {
+.staging-detail .staging-detail-foo {
     background-color: #f0f0f0;
     padding: 9px 10px;
     border-bottom-left-radius: 5px;
