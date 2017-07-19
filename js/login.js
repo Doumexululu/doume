@@ -17,6 +17,8 @@ function time(){
 		$(".js-num").text(countdown + "s");
 		}
 		else {
+			$(".js-send").show();
+			$(".js-num").hide();
 			clearInterval();
 			return;
 		}
