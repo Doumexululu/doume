@@ -33,7 +33,7 @@
     position: absolute;
     right: 0;
     height: 40px;
-	background: url("../images/index/close.png") no-repeat center;
+	background: url("../images/public/close.png") no-repeat center;
 	background-size: 16px;
 	width: 30px;
 }
