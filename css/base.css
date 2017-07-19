@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.return {
+	width: 100%;
+	background: #f0f0f0;
+	border-bottom: 1px solid #c8c8c8;
+	text-align: center;
+	padding: 15px 0;
+	position: relative;
+	font-size: 16px;
+}
+.return span {
+	display: inline-block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 0;
+}
+.return span img {
+	width: 13px;
+}
