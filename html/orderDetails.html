@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/MyStaging.css">
+	<link rel="stylesheet" href="../css/orderDetails.css">
+	<title>即安分担</title>
+</head>
+<body>
+    <div class="order-detail-tit">
+        分期申请
+        <img class="greenback" src="../images/orderDetails/greenback.png" alt="">
+    </div>
+    <div class="order-detail-list">
+        <div class="staging-detail">
+            <div class="staging-detail-tit">
+                <span>订单号：FD1789798897</span>
+                <!--待还款状态日期不显示-->
+                <!-- <span class="staging-time">2017.06.19 20:21:25</span> -->
+            </div>
+            <div class="staging-detail-cont">
+                <div class="cont-left">
+                    <p>本期待还：<span class="foo-right-color">1/3</span></p>
+                    <!--待还款状态不显示分期数-->
+                    <!-- <p>&nbsp;&nbsp;&nbsp;分期数：<span class="foo-right-color">3期</span></p> -->
+                    <p>待还金额：<span class="foo-right-color">1300.00元（含逾期：23.62元）</span></p>
+                    <!--待还款状态不显示借款金额-->
+                    <!-- <p>借款金额：<span class="foo-right-color">1672.54元</span></p> -->
+                    <p>&nbsp;&nbsp;&nbsp;还款日：<span class="foo-right-color">2017.06.19</span></p>
+                    <!--待还款状态不显示服务费-->
+                    <!-- <p>&nbsp;&nbsp;&nbsp;服务费：<span class="foo-right-color">166.00元（期缴／趸缴）</span></p> -->
+                </div>
+                <div class="cont-right">
+                    <!--待还款状态不显示锁定上扣-->
+                    <!-- <p>锁定上扣：<span class="foo-right-color">双锁上扣</span></p> -->
+                    <img class="statusimg" src="../images/MyStaging/daihuan.png" alt="审核中">
+                </div>
+            </div>
+        </div>
+        <div class="tit-line">
+            借款人信息
+        </div>
+        <div class="borrower-info">
+            <div class="borrower-info-item">
+                <span>姓名</span>
+                <span class="right-info info-color">梁晓雪</span>
+            </div>
+            <div class="borrower-info-item info-center">
+                <span>身份证号</span>
+                <span class="right-info info-color">210311198905168447</span>
+            </div>
+            <div class="borrower-info-item info-center">
+                <span>公司名称</span>
+                <span class="right-info info-color">蛋黄酱发展公司</span>
+            </div>
+        </div>
+        <!--如果身份证信息缺失则显示下面注释的内容-->
+
+        <!-- <div class="tit-line idcard">
+            <span>身份证信息缺失......</span>
+            <span class="text-right color-green">去补充信息>></span>
+        </div> -->
+
+
+        <!---->
+        <div class="tit-line">
+            还款记录
+        </div>
+        <div class="borrower-info">
+            <div class="borrower-info-item dis-flex">
+                <div class="bank-info">
+                    <p>华夏银行（5662）</p>
+                    <span class="info-color">2017-07-21 16:26</span>
+                </div>
+                <span class="back-lineheight">-1203.48</span>
+            </div>
+            <div class="borrower-info-item dis-flex info-center">
+                <div class="bank-info">
+                    <p>华夏银行（5662）</p>
+                    <span class="info-color">2017-07-21 16:26</span>
+                </div>
+                <span class="back-lineheight">-1203.4</span>
+            </div>
+            <div class="borrower-info-item dis-flex info-center">
+                <div class="bank-info">
+                    <p>华夏银行（5662）</p>
+                    <span class="info-color">2017-07-21 16:26</span>
+                </div>
+                <span class="back-lineheight">-1203.4</span>
+            </div>
+            <div class="info-center back-all">
+                查看全部记录>>
+            </div>
+        </div>
+        <div class="repayment-liji">
+            立即还款
+        </div>
+    </div>
+    <!--确认还款弹层-->
+    <div class="makesure-repay">
+        <div class="makesure-repay-cont">
+            <div class="repay-cont-tit">
+                <div class="repay-cont-item text-left color-green close-click">
+                    取消
+                </div>
+                <div class="repay-cont-item text-center">
+                    确认还款
+                </div>
+                <div class="repay-cont-item text-right color-green">
+                    确认
+                </div>
+            </div>
+            <div class="info-center money-padding text-center">
+                <img style="width:70px;" src="../images/orderDetails/money.png" alt="">
+                <p>¥1300.00</p>
+                <span class="span-width">
+                    (含：违约金65.00+剩余本金1200.00+利息20.23+罚息10.21+罚金22.19)
+                </span>
+            </div>
+            <!-- <form class=""> -->
+                <div class="info-center money-padding click-radio">
+                    <div class="radio-btn radios">
+                        <span style="flex:1;">正常还款</span>
+                        <!-- <input type="radio" name="repayment" value="normal" checked> -->
+                        <div class="radios-warrap">
+                            <div class="radio-center found-radio">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-center money-padding click-radio">
+                    <div class="radio-btn radios">
+                        <span style="flex:1;">提前结清</span>
+                        <!-- <input type="radio" name="repayment" value="advance"> -->
+                        <div class="radios-warrap">
+                            <div class="found-radio">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            <!-- </form> -->
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/orderDetails.js"></script>
+</html>
