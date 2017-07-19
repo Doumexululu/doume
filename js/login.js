@@ -1,9 +1,11 @@
 $(".js-send").click(function(){
 	$(this).css("display","none").siblings(".js-num").removeClass("show-hide");
 });
+$(".clear-num").click(function(){
+	$(this).siblings(".tel-num").val("");
+});
 // 倒计时
 $(function(){
-// 倒计时
 var countdown=60;
 $(".js-send").click(function(){
 	$(this).hide();
@@ -11,15 +13,18 @@ $(".js-send").click(function(){
 	time();
 })
 function time(){
-	setInterval(function(){
-		if (countdown !== 0) {
+
+	var f = setInterval(function(){
+	if (countdown !== 0) {
 		countdown--;
 		$(".js-num").text(countdown + "s");
 		}
 		else {
 			$(".js-send").show();
 			$(".js-num").hide();
-			clearInterval();
+			clearInterval(f);
+			$(".js-num").text(60 + "s");
+			countdown = 60;
 			return;
 		}
 	},1000);
