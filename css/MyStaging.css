@@ -90,16 +90,21 @@
     right: 20%;
 }
 .bottom-line {
+    display:none;
     position: absolute;
     width: 45%;
-    height: 2px;
+    height: 0.2rem;
     background-color: #00877e;
     margin: 0 auto;
     left: 0;
     right: 0;
-    bottom: 3px;
-    border-radius: 1px;
+    bottom: 0.3rem;
+    border-radius: 1rem;
 }
 .focu-color {
     color: #00877e;
+}
+.focu-color .bottom-line {
+	display:block;
+
 }
