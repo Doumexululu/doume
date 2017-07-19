@@ -11,6 +11,7 @@ $(".js-send").click(function(){
 	$(this).hide();
 	$(".js-num").show();
 	time();
+
 })
 function time(){
 
