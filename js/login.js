@@ -2,38 +2,28 @@ $(".js-send").click(function(){
 	$(this).css("display","none").siblings(".js-num").removeClass("show-hide");
 });
 // 倒计时
-	var countdown=60;
-	function settime(obj,obj2) {
-		var message = $('#message').text();
-		if (countdown == 0) {
-			if(message != undefined && message == '验证通过'){
-				obj2.hide();
-				obj.hide();
-				countdown = 60;
-				return;
-			}else{
-				obj2.hide();
-				obj.show();
-				countdown = 60;
-				return;
-			}
-		} else {
-			if(message != undefined && message == '验证通过'){
-				obj.hide();
-				obj2.hide();
-				obj2.text("重新发送(" + countdown + ")");
-				countdown--;
-			}else{
-				obj.hide();
-				obj2.show();
-				obj2.text("重新发送(" + countdown + ")");
-				countdown--;
-			}
+$(function(){
+// 倒计时
+var countdown=60;
+$(".js-send").click(function(){
+	$(this).hide();
+	$(".js-num").show();
+	time();
+})
+function time(){
+	setInterval(function(){
+		if (countdown !== 0) {
+		countdown--;
+		$(".js-num").text(countdown + "s");
 		}
-	setTimeout(function() {
-		settime(obj,obj2); }
-		,1000);
-	}
+		else {
+			clearInterval();
+			return;
+		}
+	},1000);
+}
+
+})
 //点击提交登录
 	$("#submit").click(function(){
 		login();
