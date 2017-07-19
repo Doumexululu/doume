@@ -1,10 +1,10 @@
-html {
+/*html {
     font-size: 62.5%;
-}
+}*/
 .staging-title {
     display: flex;
-    height: 4rem;
-    line-height: 4rem;
+    height: 40px;
+    line-height: 40px;
     border-bottom: 0.5px solid #dcdcdc;
 }
 .staging-item {
@@ -17,22 +17,22 @@ html {
     margin: 0 auto;
 }
 .staging-list .staging-detail {
-    margin-top: 2rem;
+    margin-top: 20px;
     width: 100%;
 }
 .staging-list .staging-detail .staging-detail-tit {
     background-color: #00a99d;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: white;
-    padding: 1rem;
+    padding: 10px;
 }
 .staging-time {
     float: right;
 }
 .staging-list .staging-detail .staging-detail-cont {
     background-color: #f0f0f0;
-    padding: 2rem 1rem;
+    padding: 20px 10px;
     font-weight: 500;
     display: flex;
 }
@@ -46,23 +46,23 @@ html {
     flex: 2;
 }
 .cont-left p {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 .cont-left p:last-child {
-    margin-bottom: 0rem;
+    margin-bottom: 0px;
 }
 .cont-right p {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 .staging-list .staging-detail .staging-detail-cont .cont-right .statusimg {
-    width: 5rem;
-    height: 4rem;
+    width: 50px;
+    height: 40px;
 }
 .staging-list .staging-detail .staging-detail-foo {
     background-color: #f0f0f0;
-    padding: 0.9rem 1rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    padding: 9px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     border-top: 0.5px solid #dcdcdc;
 }
 .foo-right-color {
@@ -74,16 +74,16 @@ html {
 .repayment {
     display: block;
     background-color: #00877e;
-    border-radius: 0.3rem;
+    border-radius: 3px;
     text-align: center;
-    line-height: 1rem;
-    padding: 0.5rem;
+    line-height: 10px;
+    padding: 5px;
 
 }
 .unread {
     position: absolute;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 5px;
+    height: 5px;
     background-color: #ff4545;
     border-radius: 50%;
     top: 25%;
@@ -92,13 +92,13 @@ html {
 .bottom-line {
     position: absolute;
     width: 45%;
-    height: 0.2rem;
+    height: 2px;
     background-color: #00877e;
     margin: 0 auto;
     left: 0;
     right: 0;
-    bottom: 0.3rem;
-    border-radius: 1rem;
+    bottom: 3px;
+    border-radius: 1px;
 }
 .focu-color {
     color: #00877e;
