@@ -17,7 +17,19 @@ $(".enter-arrow").click(function(){
 $(".clear-num").click(function(){
 	$(this).siblings(".yanzheng-main").val("");
 });
-//
+//关闭
 $(".off").click(function(){
     $(this).parents(".yanzheng").css("display","none");
 })
+//
+$(".money-btn").click(function(){
+    var moneys = $(".lave span").html();
+    console.log(moneys);
+    if (moneys < 100 || moneys == "") {
+        $(".roule1").css("color","red");
+        return false;
+    }else {
+        $(".enter-money-num").html(" ¥ " + moneys);
+        $(".yanzheng").css("display","block");
+    }
+});
