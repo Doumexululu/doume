@@ -1,0 +1,38 @@
+.main-width {
+    width: 90%;
+    margin: 0 auto;
+}
+.main-padding {
+    padding: 40px 0;
+}
+.text-center {
+    text-align: center;
+}
+.balance-margin {
+    font-size: 30px;
+    margin-top: 18px;
+    margin-bottom: 38px;
+    font-weight: 600;
+}
+.withdraw {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #00a99d;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 40px;
+}
+.recording {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    text-align: left;
+}
+.line34 {
+    line-height: 34px;
+}
+.bank-info span {
+    color: #c8c8c8;
+}
