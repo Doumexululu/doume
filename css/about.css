@@ -1,3 +1,28 @@
 .about-jian {
-    
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 35%;
+}
+.jian-icon {
+    width: 50%;
+    height: 50%;
+}
+.about-bottom {
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+}
+.tel-email {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.tel-email span {
+    flex: 1;
+}
+.tel-email span b {
+    color: #00a99d;
 }
