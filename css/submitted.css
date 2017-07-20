@@ -1,0 +1,14 @@
+.submitted-mianwidth {
+    padding: 40px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+    /*text-align: center;*/
+}
+.clock {
+    width: 100px;
+    height: 100px;
+}
+.clock-warp {
+    width: 100%;
+    text-align: center;
+}
