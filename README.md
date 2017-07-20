@@ -15,3 +15,4 @@
  question-list——常见问题
  balance——账户余额
  withdraw——提现
+ recording——还款记录
