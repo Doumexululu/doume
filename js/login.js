@@ -62,6 +62,7 @@ function time(){
 			// alert("手机号码格式不对！");
 			$(".login-message").children(".login-mess-cont").html("手机号码格式不对！");
 			$(".login-message").css({display:"block"}).delay(1000).hide(0);
+			$(".tel-num").val("");
 			return false;
 		}
 		return true;
@@ -93,4 +94,3 @@ function time(){
 
 
     	};
-		
