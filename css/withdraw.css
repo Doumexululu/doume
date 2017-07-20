@@ -1,0 +1,185 @@
+.main-width {
+    width: 90%;
+    margin: 0 auto;
+    padding: 6px 0 0 0;
+}
+.with-tit {
+    margin-bottom: 6px;
+}
+.backcard-wrap {
+    width: 100%;
+    padding: 10px 0 20px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.backcard-cont {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.backicon {
+    width: 31px;
+    height: 28.5px;
+}
+.display-flex {
+    display: flex;
+}
+.flex1 {
+    flex: 1;
+}
+.enter-arrow {
+    width: 8px;
+    height: 14px;
+}
+.backcard-tit-left {
+    position: relative;
+}
+.back-info {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+.lineheight33 {
+    line-height: 33px;
+}
+.backcard-money-wrap {
+    width: 100%;
+    border-top: 0.5px solid #c8c8c8;
+}
+.backcard-money {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0 8px 0;
+}
+.money-input {
+    width: 95%;
+    height: 39px;
+    border:0.5px solid #c8c8c8;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.money-font {
+    margin-bottom: 8px;
+}
+.money-btn {
+    background-color: #00a99d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+.lave {
+    margin-top: 5px;
+}
+.roules {
+    font-size: 15px;
+}
+.roule2 {
+    margin-bottom: 20px;
+}
+.tixian-btn {
+    width: 100%;
+    background-color:#00a99d;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+.backicon-s {
+    width: 31px;
+    height: 28px;
+}
+.yanzheng {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.enter-yanzheng {
+    position: absolute;
+    top:30%;
+    width:80%;
+    /*height: 100px;*/
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
+    /*padding: 13px 0 20px 0;*/
+}
+.enter-yanzheng-tit {
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.enter-yanzheng-cont {
+    width: 100%;
+    padding: 40px 0;
+    border-top: 0.5px solid #dcdcdc;
+}
+.enter-money-num {
+    width: 100%;
+    text-align: center;
+    color: #00a99d;
+    font-size: 25px;
+    font-weight: 500;
+}
+.enter-money-font {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.enter-input-warp {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.enter-input {
+    width: 80%;
+    margin: 0 auto;
+    padding: 14px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.clear-num {
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-right: 5%;
+}
+.yanzheng-font {
+    margin-left: 10px;
+}
+.yanzheng-main {
+    outline: none;
+    text-align: right;
+    background-color: #f0f0f0;
+}
+.yanzheng-btn-group {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.yanzheng-btn-group .off {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin-right: 10%;
+}
+.yanzheng-btn-group .sure {
+    background-color: #00a99d;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+}

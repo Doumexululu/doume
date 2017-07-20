@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/orderDetails.css">
+	<link rel="stylesheet" href="../css/withdraw.css">
+	<title>即安分担</title>
+</head>
+<body>
+    <div class="return">
+        <span><img src="../images/orderDetails/greenback.png" alt=""></span>
+        提现
+    </div>
+    <div class="main-width">
+        <div class="with-tit">
+            提现到
+        </div>
+        <div class="backcard-wrap">
+            <div class="backcard-cont display-flex">
+                <div class="flex1 backcard-tit-left">
+                    <img class="backicon" src="../images/withdraw/backicon.png" alt="">
+                    <div class="back-info">
+                        <span>华夏银行</span><br>
+                        <span>**** **** **** 4435</span>
+                    </div>
+                </div>
+                <div class="lineheight33">
+                    <img class="enter-arrow" src="../images/personal/enter-arrow.png" alt="">
+                </div>
+            </div>
+            <div class="backcard-money-wrap">
+                <div class="backcard-money">
+                    <div class="money-font">提现金额</div>
+                    <input type="number" class="money-input" placeholder="¥">
+                    <div class="display-flex">
+                        <div class="flex1 lave">剩余25687.00元</div>
+                        <div type="button" disabled="disabled" class="money-btn">全部提现</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="roules">提现规则说明：</p><br>
+        <p class="roule1">1、提现金额每次需大于100元</p>
+        <p class="roule2">2、提现需绑定储蓄卡，且应包括持卡人姓名、开户行、储蓄卡及手机号</p>
+        <div class="tixian-btn">
+            提现
+        </div>
+    </div>
+    <!--选择银行卡弹层-->
+    <div class="makesure-repay">
+        <div class="makesure-repay-cont">
+            <div class="repay-cont-tit">
+                <div class="repay-cont-item text-left color-green close-click">
+                    取消
+                </div>
+                <div class="repay-cont-item text-center">
+                    选择银行卡
+                </div>
+                <div class="repay-cont-item text-right color-green">
+                    确认
+                </div>
+            </div>
+                <div class="info-center money-padding click-radio">
+                    <div class="radio-btn radios">
+                        <div class="backcard-tit-left flex1">
+                            <img class="backicon-s" src="../images/withdraw/backicon.png" alt="">
+                            <div class="back-info">
+                                <span>华夏银行</span><br>
+                                <span>**** **** **** 4435</span>
+                            </div>
+                        </div>
+                        <div class="radios-warrap">
+                            <div class="radio-center found-radio">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-center money-padding click-radio">
+                    <div class="radio-btn radios">
+                        <div class="backcard-tit-left flex1">
+                            <img class="backicon-s" src="../images/withdraw/backicon.png" alt="">
+                            <div class="back-info">
+                                <span>华夏银行</span><br>
+                                <span>**** **** **** 4435</span>
+                            </div>
+                        </div>
+                        <div class="radios-warrap">
+                            <div class="found-radio">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--提现验证码弹层-->
+    <div class="yanzheng">
+        <div class="enter-yanzheng">
+            <div class="enter-yanzheng-tit">
+                请输入提现验证码
+            </div>
+            <div class="enter-yanzheng-cont">
+                <div class="enter-money-num">
+
+                </div>
+                <p class="enter-money-font">提现金额</p>
+                <div class="enter-input-warp">
+                    <div class="enter-input">
+                        <span class="yanzheng-font">验证码</span>
+                        <input class="yanzheng-main" type="number" name="" value="">
+                        <img class="clear-num" src="../images/login/clear.png" alt="清空">
+                    </div>
+                </div>
+                <div class="yanzheng-btn-group">
+                    <div class="off">
+                        取消
+                    </div>
+                    <div class="sure">
+                        确定
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/withdraw.js"></script>
+<script src="../js/orderDetails.js"></script>
+</html>
