@@ -1,0 +1,34 @@
+.credit-mainwidth {
+    width: 90%;
+    margin: 0 auto;
+    /*padding: 6px 0 0 0;*/
+}
+.credit-font {
+    margin: 6px 0;
+}
+.personal-credit {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    padding: 13px 0;
+}
+.compey-credit p {
+    width: 90%;
+    margin: 0 auto;
+}
+.p-padding {
+    width: 90%;
+    margin: 0 auto;
+}
+.personal-credit p span {
+    color: #00a99d;
+}
+.compey-credit {
+    margin-bottom: 20px;
+}
+.displayflex {
+    display: flex;
+}
+.flex1 {
+    flex: 1;
+}
