@@ -49,14 +49,19 @@ function time(){
 		var mobile = getMobile();
 
 		if (mobile == null || mobile == "") {
-			alert("请输入手机号");
+			// alert("请输入手机号");
+			$(".login-message").children(".login-mess-cont").html("请输入手机号");
+			$(".login-message").css({display:"block"}).delay(1000).hide(0);
+
 			return false;
 		}
 
 		var reg = /^(((13[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 
 		if (!reg.test(mobile)) {
-			alert("手机号码格式不对！");
+			// alert("手机号码格式不对！");
+			$(".login-message").children(".login-mess-cont").html("手机号码格式不对！");
+			$(".login-message").css({display:"block"}).delay(1000).hide(0);
 			return false;
 		}
 		return true;
@@ -74,23 +79,18 @@ function time(){
 
 
     		if (code == null || code == "") {
-    			alert("请输入验证码");
+    			// alert("请输入验证码");
+				$(".login-message").children(".login-mess-cont").html("输入验证码");
+				$(".login-message").css({display:"block"}).delay(1000).hide(0);
     			return;
     		}
     		if(code.length!=6){
-    			alert("请输入正确的验证码");
+    			// alert("请输入正确的验证码");
+				$(".login-message").children(".login-mess-cont").html("输入正确的验证码");
+				$(".login-message").css({display:"block"}).delay(1000).hide(0);
     			return;
     		}
 
 
     	};
-		//点击发送验证码
-			$("#verCode").click(function(){
-
-				sendVerCode();
-			});
-
-		//发送验证码
-			function sendVerCode(){
-
-				};
+		
