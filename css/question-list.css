@@ -16,3 +16,14 @@
 .answer {
     display: none;
 }
+.trans
+{
+transform:rotate(90deg);
+-ms-transform:rotate(90deg); 	/* IE 9 */
+-moz-transform:rotate(90deg); 	/* Firefox */
+-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+-o-transform:rotate(90deg); 	/* Opera */
+}
+.fontcolor-green {
+    color: #00a99d;
+}
