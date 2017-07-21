@@ -4,8 +4,12 @@ $(function(){
 	});
 
 	function fixCon(img,con){
-		var html='<div class="fix"><div class="fix-tishi"><img src="' + img +'" alt=""><div class="tishi-con">' + con +
-		'</div></div></div>'
+			//对-class1
+			//错-class2
+			//提示-class3
+			var html='<div class="fix"><div class="fix-tishi"><div class="' + img + '"></div><div class="tishi-con">' + con +
+			'</div></div></div>';
+		$("body").append("html");
 	}
 
 })
