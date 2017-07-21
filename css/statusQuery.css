@@ -1,0 +1,90 @@
+.status-mainwidth {
+    padding: 50px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.status {
+    display: flex;
+    position: relative;
+}
+.notice {
+    margin: 43px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.displayflex {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.margintop {
+    margin-top: 20px;
+}
+.stutas-line {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.status-icon {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.status-icon-cen {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    border-radius: 50%;
+    top: 35%;
+    left: 35%;
+}
+.icon-bgcolor-green {
+    background-color: #00a99d;
+}
+.icon-borcolor-green {
+    border: 3px solid #00a99d;
+}
+.icon-bgcolor-red {
+    background-color: #ff4545;
+}
+.icon-borcolor-red {
+    border: 3px solid #ff4545;
+}
+.icon-bgcolor-grey {
+    background-color: #a0a0a0;
+}
+.icon-borcolor-grey {
+    border: 3px solid #a0a0a0;
+}
+.font-color-green {
+    color: #00a99d;
+}
+.font-color-red {
+    color: #ff4545;
+}
+.font-color-grey {
+    color: #a0a0a0;
+}
+.flex1 {
+    flex:1;
+}
+.flex2 {
+    flex:2;
+}
+.center-line {
+    width: 25%;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 9px;
+    position: absolute;
+}
+.center-left {
+    left: 21%;
+}
+.center-right {
+    right: 21%;
+}
