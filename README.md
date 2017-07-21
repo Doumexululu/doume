@@ -19,3 +19,4 @@
  statusQuery——状态查询
  submitted——提交后的过渡页
  credit——授信信息页
+ novice——新手引导页
