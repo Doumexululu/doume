@@ -20,3 +20,4 @@
  submitted——提交后的过渡页
  credit——授信信息页
  novice——新手引导页
+ agent——代理人认证页

@@ -30,7 +30,6 @@ function time(){
 		}
 	},1000);
 }
-
 })
 //点击提交登录
 	$("#submit").click(function(){
