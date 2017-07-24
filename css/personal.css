@@ -62,3 +62,11 @@
     margin-bottom: 10px;
     display: block;
 }
+.loginout {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color: #00a99d;
+    border-radius: 5px;
+}
