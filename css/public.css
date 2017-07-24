@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{font-size: 12px;font-family: "PingFang SC","微软雅黑";color: #3c3c3c;}
-a{color:#3c3c3c; text-decoration:none; cursor:pointer; outline: 0 none;}
+a{color:#3c3c3c; text-decoration:none; cursor:pointer; outline: 0 none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
 a:hover{ text-decoration:none;}
 a:focus{-moz-outline-style:none; border:0px;blr:expression(this.onFocus=this.blur());}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,p,blockquote,th,td{margin:0; padding:0;}
