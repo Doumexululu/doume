@@ -147,3 +147,11 @@
 .color-green {
     color: #00a99d;
 }
+.border-radius {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.statusimg-size {
+    width: 50px;
+    height: 40px;
+}
