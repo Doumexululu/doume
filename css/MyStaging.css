@@ -175,3 +175,6 @@
 .makesure-repay {
     z-index: 99;
 }
+.uninfo-cont p {
+    margin-bottom: 5px;
+}
