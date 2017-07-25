@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="../css/public.css">
-	<link rel="stylesheet" href="../css/MyStaging.css">
     <link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/orderDetails.css">
+	<link rel="stylesheet" href="../css/MyStaging.css">
     <title>即安分单</title>
 </head>
 <body>
@@ -129,6 +130,72 @@
             </div>
         </div>
     </div>
+    <!--保单信息不正常弹窗-->
+    <div class="uninfo">
+        <div class="uninfo-main">
+            <div class="uninfo-tit">
+                审核补充／未通过原因
+            </div>
+            <div class="close-uninfo">
+
+            </div>
+            <div class="uninfo-cont">
+                1.保单信息不正常
+            </div>
+
+            <!-- <img src="../images/MyStaging/close-uninfo.png" alt=""> -->
+        </div>
+    </div>
+    <!--确认还款弹层-->
+    <div class="makesure-repay">
+        <div class="makesure-repay-cont">
+            <div class="repay-cont-tit">
+                <div class="repay-cont-item text-left color-green close-click">
+                    取消
+                </div>
+                <div class="repay-cont-item text-center">
+                    确认还款
+                </div>
+                <div class="repay-cont-item text-right color-green">
+                    确认
+                </div>
+            </div>
+            <div class="info-center money-padding text-center">
+                <img style="width:70px;" src="../images/orderDetails/money.png" alt="">
+                <p>¥1300.00</p>
+                <span class="span-width">
+                    (含：违约金65.00+剩余本金1200.00+利息20.23+罚息10.21+罚金22.19)
+                </span>
+            </div>
+            <!-- <form class=""> -->
+                <div class="info-center money-padding click-radio">
+                    <div class="radio-btn radios">
+                        <span style="flex:1;">正常还款</span>
+                        <!-- <input type="radio" name="repayment" value="normal" checked> -->
+                        <div class="radios-warrap">
+                            <div class="radio-center found-radio">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-center money-padding click-radio">
+                    <div class="radio-btn radios">
+                        <span style="flex:1;">提前结清</span>
+                        <!-- <input type="radio" name="repayment" value="advance"> -->
+                        <div class="radios-warrap">
+                            <div class="found-radio">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            <!-- </form> -->
+        </div>
+    </div>
+    <!--底部-->
     <div class="nav">
 		<a href="">
 			<img src="../images/public/home2.png" alt="">
@@ -143,4 +210,5 @@
 </body>
 <script src="../js/jquery-1.10.2.min.js"></script>
 <script src="../js/MyStaging.js"></script>
+<script src="../js/orderDetails.js"></script>
 </html>

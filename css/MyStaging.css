@@ -130,3 +130,48 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.uninfo {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: none;
+}
+.uninfo-main {
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
+}
+.uninfo-tit {
+    padding: 13px 0;
+    text-align: center;
+    border-bottom: 0.5px solid #dcdcdc;
+    position: relative;
+}
+.uninfo-cont {
+    padding: 35px 0;
+    width: 80%;
+    margin: 0 auto;
+    color: #00a99d;
+}
+.close-uninfo {
+    width: 26px;
+    height: 26px;
+    background: url("../images/MyStaging/close-uninfo.png")no-repeat center;
+    /*border-radius: 50%;*/
+    background-size: 100%;
+    position: absolute;
+    right: -13px;
+    top: -13px;
+}
+.makesure-repay {
+    z-index: 99;
+}
