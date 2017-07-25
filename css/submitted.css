@@ -12,3 +12,12 @@
     width: 100%;
     text-align: center;
 }
+.complete-btn {
+    width: 100%;
+    background-color: #00a99d;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
