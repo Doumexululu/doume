@@ -1,0 +1,26 @@
+.novice-main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.textleft {
+    text-align: left;
+}
+.marginbottom20 {
+    margin-bottom: 20px;
+}
+.novice-img {
+    width: 200px;
+}
+.marginbottom40 {
+    margin-bottom: 40px;
+}
+.border-ru-bottom {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.border-ru-top {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
