@@ -5,8 +5,11 @@
     text-align: center;
 }
 .enter-img {
-    width: 100%;
+    background: url("../images/enter/enter.png")no-repeat center;
+    background-size: 100%;
+    width: 340px;
     height: 395px;
+    margin: 0 auto;
     margin-bottom: 28px;
 }
 .disflex {
