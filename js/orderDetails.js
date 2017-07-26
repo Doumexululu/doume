@@ -12,3 +12,7 @@ $(".close-click").click(function(){
 $(".repayment-liji").click(function(){
     $(this).parents(".order-detail-list").siblings(".makesure-repay").css("display","block");
 });
+$(".close-makesure").click(function(){
+    $(this).parents(".makesure-repay").css("display","none");
+    $(".jumping").css("display","block");
+});
