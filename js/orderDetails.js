@@ -6,10 +6,12 @@ $(".click-radio").click(function(){
 });
 //还款弹层消失
 $(".close-click").click(function(){
+    $('body').css("overflow","scroll");
     $(this).parents(".makesure-repay").css("display","none");
 });
 //还款弹层出现
 $(".repayment-liji").click(function(){
+    $('body').css("overflow","hidden");
     $(this).parents(".order-detail-list").siblings(".makesure-repay").css("display","block");
 });
 $(".close-makesure").click(function(){
