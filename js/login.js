@@ -93,3 +93,11 @@ function time(){
 
 
     	};
+		var h = document.body.scrollHeight;
+		    window.onresize = function(){
+		        if (document.body.scrollHeight < h) {
+		            document.getElementsById("foot").style.display = "none";
+		        }else{
+		            document.getElementsById("foot").style.display = "block";
+		        }
+		    };
