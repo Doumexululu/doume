@@ -1,8 +1,13 @@
+$(document).ready(function(){
+	$("body").prepend('<div class="alert-info"><div class="alert-info-cont"></div></div>');
+});
 //提现金额大于100
 $(".tixian-btn").click(function(){
     var money = $(".money-input").val();
     if (money < 2 || money == "") {
-        $(".roule1").css("color","red");
+        // $(".roule1").css("color","red");
+        $(".alert-info-cont").html('提现金额每次需大于2元');
+        $(".alert-info").show().delay(1000).hide(0);
         return false;
     }else {
         $(".enter-money-num").html(" ¥ " + money);
@@ -26,7 +31,9 @@ $(".money-btn").click(function(){
     var moneys = $(".lave span").html();
     // console.log(moneys);
     if (moneys < 2 || moneys == "") {
-        $(".roule1").css("color","red");
+        // $(".roule1").css("color","red");
+        $(".alert-info-cont").html('提现金额每次需大于2元');
+        $(".alert-info").show().delay(1000).hide(0);
         return false;
     }else {
         $(".enter-money-num").html(" ¥ " + moneys);

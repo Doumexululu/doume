@@ -24,6 +24,7 @@ input,select {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: none;
+	z-index: 99;
 }
 .alert-info-cont {
 	width: 40%;
