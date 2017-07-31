@@ -48,20 +48,26 @@ function time(){
 		var mobile = getMobile();
 
 		if (mobile == null || mobile == "") {
-			// alert("请输入手机号");
-			$(".login-message").children(".login-mess-cont").html("请输入手机号");
-			$(".login-message").css({display:"block"}).delay(1000).hide(0);
-
+			if ($(".alert-info").length>=1){
+				$(".alert-info").show().delay(1000).hide(0);
+			}else {
+				$("body").prepend('<div class="alert-info"><div class="alert-info-cont">请输入手机号</div></div>');
+				$(".alert-info").show().delay(1000).hide(0);
+			}
 			return false;
 		}
 
 		var reg = /^(((13[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 
 		if (!reg.test(mobile)) {
-			// alert("手机号码格式不对！");
-			$(".login-message").children(".login-mess-cont").html("手机号码格式不对！");
-			$(".login-message").css({display:"block"}).delay(1000).hide(0);
-			$(".tel-num").val("");
+			if ($(".alert-info").length>=1){
+				$(".alert-info").show().delay(1000).hide(0);
+				$(".tel-num").val("");
+			}else {
+				$("body").prepend('<div class="alert-info"><div class="alert-info-cont">手机号码格式不对</div></div>');
+				$(".alert-info").show().delay(1000).hide(0);
+				$(".tel-num").val("");
+			}
 			return false;
 		}
 		return true;
@@ -101,3 +107,4 @@ function time(){
 		            document.getElementsById("foot").style.display = "block";
 		        }
 		    };
+//文本提示
