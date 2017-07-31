@@ -37,12 +37,12 @@
 }
 .staging-detail .staging-detail-cont .cont-left {
     width: 63%;
-    flex: 3;
+    flex: 10;
 }
 .staging-detail .staging-detail-cont .cont-right {
     width: 37%;
     text-align: right;
-    flex: 2;
+    flex: 6;
 }
 .cont-left p {
     margin-bottom: 10px;
