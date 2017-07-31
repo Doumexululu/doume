@@ -8,13 +8,16 @@ $(".click-radio").click(function(){
 $(".close-click").click(function(){
     $('body').css("overflow","scroll");
     $(this).parents(".makesure-repay").css("display","none");
+    $(".makesure-repay-cont").css("height","0");
 });
 //还款弹层出现
 $(".repayment-liji").click(function(){
     $('body').css("overflow","hidden");
     $(this).parents(".order-detail-list").siblings(".makesure-repay").css("display","block");
+    $(".makesure-repay-cont").animate({height:"300px"});
 });
 $(".close-makesure").click(function(){
     $(this).parents(".makesure-repay").css("display","none");
+    $(".makesure-repay-cont").css("height","0");
     $(".jumping").css("display","block");
 });
