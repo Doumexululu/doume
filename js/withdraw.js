@@ -1,7 +1,7 @@
 //提现金额大于100
 $(".tixian-btn").click(function(){
     var money = $(".money-input").val();
-    if (money < 100 || money == "") {
+    if (money < 2 || money == "") {
         $(".roule1").css("color","red");
         return false;
     }else {
@@ -25,7 +25,7 @@ $(".off").click(function(){
 $(".money-btn").click(function(){
     var moneys = $(".lave span").html();
     // console.log(moneys);
-    if (moneys < 100 || moneys == "") {
+    if (moneys < 2 || moneys == "") {
         $(".roule1").css("color","red");
         return false;
     }else {
