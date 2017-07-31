@@ -1,3 +1,6 @@
+$(document).ready(function(){
+	$("body").prepend('<div class="alert-info"><div class="alert-info-cont"></div></div>');
+});
 $(".js-send").click(function(){
 	$(this).css("display","none").siblings(".js-num").removeClass("show-hide");
 });
@@ -48,26 +51,16 @@ function time(){
 		var mobile = getMobile();
 
 		if (mobile == null || mobile == "") {
-			if ($(".alert-info").length>=1){
+				$(".alert-info-cont").html('请输入手机号');
 				$(".alert-info").show().delay(1000).hide(0);
-			}else {
-				$("body").prepend('<div class="alert-info"><div class="alert-info-cont">请输入手机号</div></div>');
-				$(".alert-info").show().delay(1000).hide(0);
-			}
 			return false;
 		}
 
 		var reg = /^(((13[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 
 		if (!reg.test(mobile)) {
-			if ($(".alert-info").length>=1){
-				$(".alert-info").show().delay(1000).hide(0);
-				$(".tel-num").val("");
-			}else {
-				$("body").prepend('<div class="alert-info"><div class="alert-info-cont">手机号码格式不对</div></div>');
-				$(".alert-info").show().delay(1000).hide(0);
-				$(".tel-num").val("");
-			}
+			$(".alert-info-cont").html('手机号格式不正确');
+			$(".tel-num").val("");
 			return false;
 		}
 		return true;
