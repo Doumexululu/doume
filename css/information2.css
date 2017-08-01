@@ -40,6 +40,7 @@
     float: right;
     color: #a0a0a0;
     padding-right: 15px;
+	letter-spacing: 1px;
 }
 .box-gray-input select {
 	height: 40px;
