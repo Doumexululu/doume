@@ -48,14 +48,19 @@
 .flex2 {
     flex:2;
 }
+.flex4 {
+    flex:4;
+}
 .input-padd {
     padding-right: 15px;
 }
 .sendnum {
-    padding: 6px 23px;
+    padding: 6px 0;
     background-color: #a0a0a0;
     color: white;
     border-radius: 5px;
+    flex: 2;
+    text-align: center;
 }
 .show-hide {
     display: none;
