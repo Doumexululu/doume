@@ -146,6 +146,9 @@
     padding: 14px 0;
     background-color: #f0f0f0;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .clear-num {
     width: 16px;
@@ -155,11 +158,13 @@
 }
 .yanzheng-font {
     margin-left: 10px;
+    flex: 1;
 }
 .yanzheng-main {
     outline: none;
     text-align: right;
     background-color: #f0f0f0;
+    flex: 2;
 }
 .yanzheng-btn-group {
     width: 80%;
