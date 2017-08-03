@@ -52,6 +52,13 @@
 .box-gray-input input.right-span {
 	padding-right: 30px;
 	box-sizing: border-box;
+
+}
+.right-arrow {
+	background: url("../images/staging/right.png") no-repeat right !important;
+	background-size: 4% !important;
+	padding-right: 0 !important;
+	margin-right: 9px;
 }
 .box-gray-input li.last-li {
 	border: none;
@@ -175,8 +182,3 @@
 	height: 40px;
 	border-radius: 5px;
 }
-
-
-
-
-

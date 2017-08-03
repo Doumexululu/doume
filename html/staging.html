@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="../css/staging.css">
 	<title>即安分单</title>
 </head>
+<style>
+	input[type="date"]::-webkit-clear-button { display:none }
+	input[type="date"]::-webkit-calendar-picker-indicator { display:none }
+</style>
 <body>
 	<!-- 弹出层 -->
 	<div class="fix-box">
@@ -57,8 +61,8 @@
 				</li>
 				<li class="last-li">
 					<span>投保时间</span>
-					<input class="right-span input4" type="date">
-					<span class="icon-right"></span>
+					<input class="right-span input4 right-arrow" type="date">
+					<!-- <span class="icon-right"></span> -->
 				</li>
 			</ul>
 		</div>
